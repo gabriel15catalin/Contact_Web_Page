@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang='ro'>
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Calligraffitti' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Coming Soon' rel='stylesheet'>
+<title>Pagină de contact</title>
+<meta charset="utf-8">
+<style type='text/css'>
+div#unu {
+position: absolute;
+top: 2%;
+left: 70%;
+right: 0%;
+width: 10px;
+height: 10px;
+}
+div#doi {
+position: absolute;
+top: 2%;
+left: 80%;
+right: 0%;
+width: 10px;
+height: 10px;
+}
+div#trei {
+position: absolute;
+top: 2%;
+left: 90%;
+right: 0%;
+width: 10px;
+height: 10px;
+}
+a  {
+	font-size:20px;
+	text-align: center;
+	color: white;
+	font-family: 'Papyrus', cursive;
+	text-shadow: 2px 2px 5px black;
+}
+a:hover {
+  background-color: aqua;
+</style>
+</head>
+<body style="background-size: cover;" background="background.jpg">
+    <div id='unu'>
+        <a href="Home.html">Home</a>
+        </div>
+        </div>
+        <div id='doi'>
+        <a href="CV.html">CV</a>
+        </div>
+        <div id='trei'>
+        <a href="Contact.html">Contact</a>
+        </div>   
+    <div style="margin-top: 100px; margin-left: 100px;">
+    <h1 style="font-family: Calligraffitti; color: white;">Formular contact</h1>
+    <form action="mailto:firma_sucursalaBucuresti@gmail.com" method="GET" enctype="text/plain">
+
+    <h4 style="font-family: Coming Soon; color: white;">
+    Nume complet
+    <input style="width: 150px; margin-left: 50px;" type="text" name="nume" placeholder="Nume">
+    <input style="width: 150px; margin-left: 15px;" type="text" name="prenume" placeholder="Prenume">
+    <br />
+    Email
+    <input style="width: 319px; margin-top: 20px; margin-left: 94px;" type="text" name="email" placeholder="Email">
+    <br />
+    Subiect
+        <select style="width: 250px; height: 23px; margin-top: 20px; margin-left: 79px;" name="subiect">
+          <option name="subiect" value="Altceva">Altceva</option>
+          <option name="subiect" value="Subiect1">Subiect 1</option>
+          <option name="subiect" value="Subiect2">Subiect 2 </option>
+        </select>
+    </h4>
+    </div>
+    <div style="float: left; margin-left: 100px;">
+    <h4 style=" margin-top: 0px; font-family: Coming Soon; color: white;">
+    Mesaj
+    </h4>
+    </div>
+    <div>
+    <textarea style="width: 319px; height: 100px; margin-left: 97px;" name="mesaj" placeholder="Mesaj.."></textarea>
+    </div>
+    <hr style="width: 458px; margin-top: 20px; margin-left: 100px;">
+    <input style="border-radius: 6px; background-color: 3070AE; border-color: white; width: 100px; height: 30px; margin-top: 20px; margin-left: 94px;" type="submit" value="Trimite">
+    </form> 
+    </div>
+    </body>
+    </html>
